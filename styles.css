@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background: linear-gradient(to left ,#793af0, #612dc2);
+  color: white;
+  font-weight: 400;
+}
+
+.container {
+  border: 1px solid #612dc2;
+  padding: 3rem;
+  margin: 0 1rem;
+  box-shadow: 2px 2px 2px #222222;
+}
+
+.pointer {
+  font-size: 4rem;
+}
+
+.container .text {
+  font-size: 7rem;;
+}
